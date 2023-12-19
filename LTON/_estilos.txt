@@ -1,0 +1,12 @@
+* Básicos;
+    !{Noite}[#113;white];
+    !{Dia}[#ec5;black];
+
+* Personagens principais;
+    !{João}[#333;;solid blue];
+    !{Maria}[#555;;solid #e3e];
+    !{Bruxa}[;;solid purple];
+
+* Locações;
+    !{Casa da Bruxa}[#517;white];
+    !{Floresta}[#22bb3399;white];
