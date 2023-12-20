@@ -1,3 +1,156 @@
-* proposta;
-* pre requisitos;
-* criação;
+!{Exemplo}[#343;#fdf];
+
+<{Proposta};
+'A proposta do site consiste em utilizar os serviços do GitHub para criar repositórios com  uma ESTRUTURA de pastas específica e utilizar de uma sintaxe de texto  para gerar COMPONENTES (recursos html/css) e criar uma espécie  de webton nova chamada "LTON"';
+>;
+
+<{Componentes};
+'é possível criar componentes como esse:';
+
+'{título}'texto'[black;white;solid red](l);'(l){Exemplo};
+
+{título}'texto'[ black; white; solid red](l);
+
+'os componentes são SEMPRE separados por ponto e vírgula ";"';
+
+'o que vier dentro de chaves {} fará o título';
+
+'o que vier dentro de aspas SIMPLES '' fará o texto';
+
+'não é necessário haver os dois , pode ser apenas título:';
+
+(l){Exemplo}'{título}[ black; white; solid red];';
+
+{título}[ black; white; solid red];
+
+'ou apenas texto:';
+
+(l){Exemplo}''texto'[ black; white; solid red];';
+
+'texto'[ black; white; solid red];
+
+'o que vier dentro de parênteses () definirá o lado:';
+
+(l){Exemplo}''texto'[ black; white; solid red](e);';
+
+'texto'[ black; white; solid red](e);
+
+'ou:';
+
+(l){Exemplo}''texto'[ black; white; solid red](d);';
+
+'texto'[ black; white; solid red](d);
+
+'(esquerda)(left), (direita)(right) ou simplesmente (e)(l), (d)(r)';
+
+'os colchetes servem para definir cores e estilos; primeiro é definido a cor de fundo do componente (background), depois a cor do texto e por último a borda (border), são separados por ponto e vírgula ";":';
+
+(l){Exemplo}'{exemplo}[red; yellow; solid green 3px];';
+
+{exemplo}[red; yellow; solid green 3px];
+
+'é possível também reaproveitar estilos gravando eles em um titulo, basta iniciar o componente com ponto de exclamação"!":';
+
+(l){Exemplo}'![blue;#fa5]{reaproveitando estilo};';
+
+![blue;#fa5]{reaproveitando estilo};
+
+'nada será exibido, mas agora sempre que utilizar o título"{reaproveitando estilo}" terá essa estilização:';
+
+(l){Exemplo}''texto de exemplo'{reaproveitando estilo};';
+
+'texto de exemplo'{reaproveitando estilo};
+
+'os estilos apenas valem no capítulo que foram declarados';
+
+'é possível também criar 'seções' que podem conter outros componentes dentro, para isso deve se abrir a seção com "<;" e fechar com ">;". podem ser estilizadas normalmente e podem conter título :';
+
+(l){Exemplo}'<{Título de seção}[yellow;#f5e];
+{exemplo}(e);
+{de};
+{seção}(d);
+>;';
+
+<{Título de seção}[yellow;#f5e];
+{exemplo}(e);
+{de};
+{seção}(d);
+>;
+
+'seções também podem conter seções:';
+
+(l){Exemplo}
+'<{Título de seção}[yellow;#f5e];
+  <{reaproveitando estilo};
+  {exemplo}(e)'seção dentro de seção';
+  >;
+>;';
+
+<{Título de seção}[yellow;#f5e];
+<{reaproveitando estilo};
+{exemplo}(e)'seção dentro de seção';
+>;
+>;
+
+'lembre sempre de fechar as seções';
+
+'é possível também inserir mídia , primeiro a mídia precisa estar disponível online, após isso, basta iniciar o componente com "@" e usar 
+embed(iframe) ou
+img(link da imagem) ou
+video(link do vídeo)';
+
+(l){Exemplo}
+'@img(link da imagem);
+@video(link do vídeo);
+@embed(iframe);';
+
+'esse tipo de componente não tem texto, estilo nem titulo, mas pode ter o lado definido se o parênteses vier antes';
+
+(l){Exemplo}
+'@(e)img(link da imagem);
+@(d)video(link do vídeo);
+@(e)embed(iframe);';
+
+'e por último, para que um componente inserido não seja renderizado basta colocar um asterisco "*" no inicio , isso evita a necessidade de apagá-los';
+
+(l){Exemplo}'*'texto'{titulo};';
+
+>;
+
+<{Estrutura de pastas do repositório};
+'o repositório deve conter uma pasta chamada LTON na sua raiz, ela que será usada para renderizar o conteúdo'{LTON};
+'cada capitulo corresponde a um arquivo de texto com extensão ".txt", o nome do arquivo é o nome do capitulo';
+'os capítulos podem estar agrupados por pastas, o nome do agrupamento é o nome da pasta';
+
+'caso o nome do arquivo seja "_styles.txt" ou "_estilos.txt" ele não será exibido, mas pode conter estilos que persistiram por todas as páginas';
+
+'recomendamos a criação de um arquivo "autor.txt" ou "author.txt" que contenha seus contatos, redes sociais e formas de apoio como pix, picpay, paypal ...';
+
+'é necessário um arquivo "config.json" na raiz da pasta LTON com um objeto com duas chaves:'{config.json};
+
+'capa ou cover, se espera um link de uma imagem';
+
+'genero ou genre, se espera um dos tipos contidos no filtro do catalogo (tudo em minúsculo, com acentuação)';
+
+(l){Exemplo}'{
+       "genre":"ação",
+       "cover":"http://linkdeumaimagem"
+}';
+
+'essa imagem e genero sera usado para exibir sua LTON no catalogo , na pagina inicial do site, não necessariamente sua LTON estará lá, o catálogo mostra as LTONs mais acessadas recentemente';
+
+'após criar um repositório LTON basta acessar o "domínio do site + /history.html#nome-do-perfil-no-github:nome-do-repositório" e se estiver com a sintaxe e estrutura de pasta correta ele já será exibido';
+
+'divulgue o link de sua LTON em suas redes sociais';
+
+'sua LTON pode se atualizar a qualquer momento basta realizar um "push" no seu repositório do github, em até um dia o conteúdo será atualizado';
+
+'será sempre usado a branch main, e o repositório deve estar público';
+
+>;
+
+<{considerações finais};
+'Este site é voltado a você que deseja tirar do papel suas histórias e dar vida a seus mundos, espero que ele seja de grande ajuda';
+'apoiem o site e a seus criadores, para sempre nos manter motivados a fazer mais';
+'desde já , agradeço a quem decidiu desenvolver sua LTON e principalmente a quem decidiu apoiar a ideia , cada doação, nem que seja valores simbólicos, faz esse sonho possível ';
+>;
