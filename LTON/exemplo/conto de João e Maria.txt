@@ -1,7 +1,7 @@
 <{Dia};
     <{Floresta};
-        {João}'fala a verdade maria , estamos perdidos!'(e);
-        {Maria}'eu só perdi a trilha , mas eu sei o caminho de volta calma'(d);
+        {João}'fala a verdade Maria , estamos perdidos!'(e);
+        {Maria}'eu só perdi a trilha , mas eu sei o caminho de volta, calma!'(d);
         {João}'calma? já vai escurecer , essa floresta a noite é perigosa! já ouvi falar que tem  lobos gigantes aqui'(e);
         {Maria}'essa floresta não tem lobos, para de reclamar e continua andando'(d);
         'tempo depois, andando pela floresta eles avistam uma casa';
@@ -45,18 +45,18 @@
         logo ao amanhecer eu vou descobrir em que aqueles dois pestinhas vão se transformar'(d);
         'Maria tampava a boca de João impedindo que ele gritasse e lentamente se afastava dali sem fazer barulho';
         {João}'ainda quer pedir comida?'(e);
-        {Maria}'tá bom você tava certo acho melhor a gente sair daqui, em silêncio!!
+        {Maria}'tá, você tava certo acho melhor a gente sair daqui, mas sem fazer barulho!!
         se ela nos ouvir ela não vai deixar a gente sair'(e);
         'eles saem da casa pela janela, e avistam uma carroagem';
         {Maria}'deve ser a carroagem da velha, entra ai'(e);
         {João}'você sabe andar com isso ? '(e);
         {Maria}'sobe logo!'(e);
-        {João}'tá bom!'(e);
+        {João}'aff...ok'(e);
         {Maria}'agora é só bater nos cavalos com um chicote que eles andam, mas ... cadê o chicote?'(e);
-        {João}'deve ser isso, mas não vai fazer barulho quando eles...'(e);
+        {João}'deve ser isso aqui, mas não vai fazer barulho quando eles...'(e);
         'Maria golpeia os cavalos que se levantam assustados e relinchando alto,
          a porta da casa abre abruptamente';
-        {Bruxa}'o que está acontecendo aqui !'(d);
+        {Bruxa}'o que está acontecendo aqui?'(d);
         {João}'MARIA RÁPIDO!!'(e);
         'Maria golpeia os cavalos desesperadamente , e eles disparam a correr';
         {Bruxa}'onde esses pestinhas pensam que estão indo?'(d); 
@@ -70,9 +70,9 @@
         'eles escutam um uivo, passadas, rosnados e latidos.
          João olhapela janela da carroagem e avista os lobos atras dele';
         {João}'Maria são os lobos eles estão alcançando a gente'(e);
-        {Maria}'se segura eu vou tentar acelerar aqui'(d);
+        {Maria}'se segura! eu vou tentar acelerar'(d);
         {João}'não vai dar , estão muito perto'(e);
-        {Maria}'eu vi um arco e flesha ai dentro tenta atirar neles'(d);
+        {Maria}'eu vi um arco e flesha ai dentro! tenta atirar neles'(d);
         {João}'eu não sei usar isso'(e);
         {Maria}'TENTAAA!'(d);
         'João tenta atira nos lobos e erra por repetidas vezes.
