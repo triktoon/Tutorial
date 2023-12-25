@@ -132,15 +132,18 @@
 
   {config.json};
 
-  'É necessário um arquivo "config.json" na raiz da pasta LTON com um objeto com duas chaves:'
+  'É necessário um arquivo "config.json" na raiz da pasta LTON com um objeto com três chaves:'
 
-  'Capa ou cover, se espera um link de uma imagem.';
+  '"capa" ou "cover", se espera um link de uma imagem.';
 
-  'Genero ou genre, se espera um dos tipos contidos no filtro do catalogo (tudo em minúsculo, com acentuação).';
+  '"genero" ou "genre", se espera um dos tipos contidos no filtro do catalogo (tudo em minúsculo, com acentuação).';
+
+  '"idioma" ou "lang", específique o idioma ex:"en","pt-br"...';
 
   (l){Exemplo}'{
         "genre":"ação",
-        "cover":"http://linkdeumaimagem"
+        "cover":"https://linktoimg",
+        "lang":"en"
   }';
 
   'Essa imagem e genero sera usado para exibir sua LTON no catálogo , na pagina inicial do site, não necessariamente sua LTON estará lá, o catálogo mostra as LTONs mais acessadas recentemente.';
@@ -155,5 +158,5 @@
 <{considerações finais};
   'Este site é voltado a você que deseja tirar do papel suas histórias e dar vida a seus mundos, espero que ele seja de grande ajuda.';
   'Apoiem o site e a seus criadores, para sempre nos manter motivados a fazer mais.';
-  'Desde já , agradeço a quem decidiu desenvolver sua LTON e principalmente a quem decidiu apoiar a ideia , cada doação, nem que seja valores simbólicos, faz esse sonho possível. ';
+  'Desde já , agradeço a quem decidiu desenvolver sua LTON e principalmente a quem decidiu apoiar a ideia , cada doação, nem que seja valores simbólicos, faz esse projeto possível. ';
 >;
