@@ -7,11 +7,13 @@
 <{Components};
    'It is possible to create components like this:';
 
-   '{title}'text'[black;white;solid red](l);'(l){Example};
+   (l){Example}'{title}'text'[black;white;solid red](l)##1';
 
    {title}'text'[black; white; solid red](l);
 
-   'Components are ALWAYS separated by semicolons ";".';
+   'Components are ALWAYS separated by semicolons "##1".';
+
+   'if you want to use semicolons in the text or title, enter "#,#,1" without the commas';
 
    'Whatever comes inside braces {} will make the title.';
 
@@ -19,25 +21,25 @@
 
    'It is not necessary to have both, it can just be title:';
 
-   (l){Example}'{title}[ black; white; solid red];';
+   (l){Example}'{title}[ black; white; solid red]##1';
 
    {title}[ black; white; solid red];
 
    'Or just text:';
 
-   (l){Example}''text'[ black; white; solid red];';
+   (l){Example}''text'[ black; white; solid red]##1';
 
    'text'[black; white; solid red];
 
    'Whatever comes inside parentheses () will define the side:';
 
-   (l){Example}''text'[ black; white; solid red](e);';
+   (l){Example}''text'[ black; white; solid red](e)##1';
 
    'text'[black; white; solid red](e);
 
    'Or:';
 
-   (l){Example}''text'[ black; white; solid red](d);';
+   (l){Example}''text'[ black; white; solid red](d)##1';
 
    'text'[black; white; solid red](d);
 
@@ -46,19 +48,19 @@
    'The brackets are used to define colors and styles.
    First, the background color of the component is defined, then the text color and finally the border, separated by a semicolon ";":';
 
-   (l){Example}'{example}[red; yellow; solid green 3px];';
+   (l){Example}'{example}[red; yellow; solid green 3px]##1';
 
    {example}[red; yellow; solid green 3px];
 
    'It is also possible to reuse styles by saving them in a title, just start the component with an exclamation mark "!":';
 
-   (l){Example}'![blue;#fa5]{reusing style};';
+   (l){Example}'![blue;#fa5]{reusing style}##1';
 
    ![blue;#fa5]{reusing style};
 
    'Nothing will be displayed, but now whenever you use the title"{reusing style}" it will have this styling:';
 
-   (l){Example}''example text'{reusing style};';
+   (l){Example}''example text'{reusing style}##1';
 
    'sample text'{reusing style};
 
@@ -66,11 +68,11 @@
 
    'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<;" and close with ">;". can be styled normally and can contain title :';
 
-   (l){Example}'<{Section title}[yellow;#f5e];
-   {example}(e);
-   {in};
-   {section}(d);
-   >;';
+   (l){Example}'<{Section title}[yellow;#f5e]##1
+   {example}(e)##1
+   {in}##1
+   {section}(d)##1
+   >##1';
 
    <{Section title}[yellow;#f5e];
    {example}(e);
@@ -81,11 +83,11 @@
    'Sections can also contain sections:';
 
    (l){Example}
-   '<{Section title}[yellow;#f5e];
-     <{reusing style};
-     {example}(e)'section within a section';
-     >;
-   >;';
+   '<{Section title}[yellow;#f5e]##1
+     <{reusing style}##1
+     {example}(e)'section within a section'##1
+     >##1
+   >##1';
 
    <{Section title}[yellow;#f5e];
    <{reusing style};
@@ -93,7 +95,7 @@
    >;
    >;
 
-   'Always remember to close the sections WITH ">;".';
+   'Always remember to close the sections WITH ">##1".';
 
    'It is also possible to insert media, first the media needs to be available online, after that, just start the component with "@" and use
    embed(iframe) or
@@ -101,20 +103,20 @@
    video(video link).';
 
    (l){Example}
-   '@img(image link);
-   @video(video link);
-   @embed(iframe);';
+   '@img(image link)##1
+   @video(video link)##1
+   @embed(iframe)##1';
 
    'This type of component has no text, style or title, but can have the side defined if the parentheses come before.';
 
    (l){Example}
-   '@(e)img(image link);
-   @(d)video(video link);
-   @(e)embed(iframe);';
+   '@(e)img(image link)##1
+   @(d)video(video link)##1
+   @(e)embed(iframe)##1';
 
    'And lastly, so that an inserted component is not rendered, simply place an asterisk "*" at the beginning, this avoids the need to delete them.';
 
-   (l){Example}'*'text'{title};';
+   (l){Example}'*'text'{title}##1';
 >;
 
 <{Repository folder structure};
@@ -128,7 +130,7 @@
 
    'If the file name is "_styles.txt" or "_estilos.txt" it will not be displayed, but it may contain styles that persisted across all pages';
 
-   'We recommend creating a file "autor.txt" or "author.txt" that contains your contacts, social networks and forms of support such as pix, picpay, paypal...';
+   'We recommend creating a file "autor.txt" or "author.txt" that contains your contacts, social networks and forms of support such as pix, payoneer, paypal...';
 
    {config.json};
 
