@@ -1,162 +1,162 @@
-!{Exemplo}[#343;#fdf];
+!{Example}[#343;#fdf];
 
-<{Proposta};
-  'A proposta do site consiste em utilizar os serviços do GitHub para criar repositórios com  uma determinada ESTRUTURA de pastas juntamente com arquivos de texto em uma sintaxe de texto específica para gerar COMPONENTES (recursos html/css) e criar uma espécie  de webton nova chamada "LTON".';
+<{Proposal};
+   'The website's proposal consists of using GitHub services to create repositories with a certain folder STRUCTURE together with text files in a specific text syntax to generate COMPONENTS (html/css resources) and create a kind of new webton called " LTON".';
 >;
 
-<{Componentes};
-  'É possível criar componentes como esse:';
+<{Components};
+   'It is possible to create components like this:';
 
-  '{título}'texto'[black;white;solid red](l);'(l){Exemplo};
+   '{title}'text'[black;white;solid red](l);'(l){Example};
 
-  {título}'texto'[ black; white; solid red](l);
+   {title}'text'[black; white; solid red](l);
 
-  'Os componentes são SEMPRE separados por ponto e vírgula ";".';
+   'Components are ALWAYS separated by semicolons ";".';
 
-  'O que vier dentro de chaves {} fará o título.';
+   'Whatever comes inside braces {} will make the title.';
 
-  'O que vier dentro de aspas SIMPLES '' fará o texto.';
+   'Whatever comes inside SINGLE quotation marks '' will make up the text.';
 
-  'Não é necessário haver os dois , pode ser apenas título:';
+   'It is not necessary to have both, it can just be title:';
 
-  (l){Exemplo}'{título}[ black; white; solid red];';
+   (l){Example}'{title}[ black; white; solid red];';
 
-  {título}[ black; white; solid red];
+   {title}[ black; white; solid red];
 
-  'Ou apenas texto:';
+   'Or just text:';
 
-  (l){Exemplo}''texto'[ black; white; solid red];';
+   (l){Example}''text'[ black; white; solid red];';
 
-  'texto'[ black; white; solid red];
+   'text'[black; white; solid red];
 
-  'O que vier dentro de parênteses () definirá o lado:';
+   'Whatever comes inside parentheses () will define the side:';
 
-  (l){Exemplo}''texto'[ black; white; solid red](e);';
+   (l){Example}''text'[ black; white; solid red](e);';
 
-  'texto'[ black; white; solid red](e);
+   'text'[black; white; solid red](e);
 
-  'Ou:';
+   'Or:';
 
-  (l){Exemplo}''texto'[ black; white; solid red](d);';
+   (l){Example}''text'[ black; white; solid red](d);';
 
-  'texto'[ black; white; solid red](d);
+   'text'[black; white; solid red](d);
 
-  '(esquerda)(left), (direita)(right) || (e)(l), (d)(r).';
+   '(left)(left), (right)(right) || (e)(l), (d)(r).';
 
-  'Os colchetes servem para definir cores e estilos.
-  Primeiro é definido a cor de fundo do componente (background), depois a cor do texto e por último a borda (border), são separados por ponto e vírgula ";":';
+   'The brackets are used to define colors and styles.
+   First, the background color of the component is defined, then the text color and finally the border, separated by a semicolon ";":';
 
-  (l){Exemplo}'{exemplo}[red; yellow; solid green 3px];';
+   (l){Example}'{example}[red; yellow; solid green 3px];';
 
-  {exemplo}[red; yellow; solid green 3px];
+   {example}[red; yellow; solid green 3px];
 
-  'É possível também reaproveitar estilos gravando eles em um titulo, basta iniciar o componente com ponto de exclamação"!":';
+   'It is also possible to reuse styles by saving them in a title, just start the component with an exclamation mark "!":';
 
-  (l){Exemplo}'![blue;#fa5]{reaproveitando estilo};';
+   (l){Example}'![blue;#fa5]{reusing style};';
 
-  ![blue;#fa5]{reaproveitando estilo};
+   ![blue;#fa5]{reusing style};
 
-  'Nada será exibido, mas agora sempre que utilizar o título"{reaproveitando estilo}" terá essa estilização:';
+   'Nothing will be displayed, but now whenever you use the title"{reusing style}" it will have this styling:';
 
-  (l){Exemplo}''texto de exemplo'{reaproveitando estilo};';
+   (l){Example}''example text'{reusing style};';
 
-  'texto de exemplo'{reaproveitando estilo};
+   'sample text'{reusing style};
 
-  'Os estilos apenas valem no capítulo que foram declarados.';
+   'Styles are only valid in the chapter they were declared.';
 
-  'É possível também criar 'seções' que podem conter outros componentes dentro, para isso deve se abrir a seção com "<;" e fechar com ">;". podem ser estilizadas normalmente e podem conter título :';
+   'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<;" and close with ">;". can be styled normally and can contain title :';
 
-  (l){Exemplo}'<{Título de seção}[yellow;#f5e];
-  {exemplo}(e);
-  {de};
-  {seção}(d);
-  >;';
+   (l){Example}'<{Section title}[yellow;#f5e];
+   {example}(e);
+   {in};
+   {section}(d);
+   >;';
 
-  <{Título de seção}[yellow;#f5e];
-  {exemplo}(e);
-  {de};
-  {seção}(d);
-  >;
+   <{Section title}[yellow;#f5e];
+   {example}(e);
+   {in};
+   {section}(d);
+   >;
 
-  'Seções também podem conter seções:';
+   'Sections can also contain sections:';
 
-  (l){Exemplo}
-  '<{Título de seção}[yellow;#f5e];
-    <{reaproveitando estilo};
-    {exemplo}(e)'seção dentro de seção';
-    >;
-  >;';
+   (l){Example}
+   '<{Section title}[yellow;#f5e];
+     <{reusing style};
+     {example}(e)'section within a section';
+     >;
+   >;';
 
-  <{Título de seção}[yellow;#f5e];
-  <{reaproveitando estilo};
-  {exemplo}(e)'seção dentro de seção';
-  >;
-  >;
+   <{Section title}[yellow;#f5e];
+   <{reusing style};
+   {example}(e)'section within a section';
+   >;
+   >;
 
-  'Lembre sempre de fechar as seções COM ">;".';
+   'Always remember to close the sections WITH ">;".';
 
-  'É possível também inserir mídia , primeiro a mídia precisa estar disponível online, após isso, basta iniciar o componente com "@" e usar 
-  embed(iframe) ou
-  img(link da imagem) ou
-  video(link do vídeo).';
+   'It is also possible to insert media, first the media needs to be available online, after that, just start the component with "@" and use
+   embed(iframe) or
+   img (image link) or
+   video(video link).';
 
-  (l){Exemplo}
-  '@img(link da imagem);
-  @video(link do vídeo);
-  @embed(iframe);';
+   (l){Example}
+   '@img(image link);
+   @video(video link);
+   @embed(iframe);';
 
-  'Esse tipo de componente não tem texto, estilo nem titulo, mas pode ter o lado definido se o parênteses vier antes.';
+   'This type of component has no text, style or title, but can have the side defined if the parentheses come before.';
 
-  (l){Exemplo}
-  '@(e)img(link da imagem);
-  @(d)video(link do vídeo);
-  @(e)embed(iframe);';
+   (l){Example}
+   '@(e)img(image link);
+   @(d)video(video link);
+   @(e)embed(iframe);';
 
-  'E por último, para que um componente inserido não seja renderizado basta colocar um asterisco "*" no inicio , isso evita a necessidade de apagá-los.';
+   'And lastly, so that an inserted component is not rendered, simply place an asterisk "*" at the beginning, this avoids the need to delete them.';
 
-  (l){Exemplo}'*'texto'{titulo};';
+   (l){Example}'*'text'{title};';
 >;
 
-<{Estrutura de pastas do repositório};
-  'Será sempre usado a branch main, e o repositório deve estar público.';
+<{Repository folder structure};
+   'The main branch will always be used, and the repository must be public.';
 
-  'O repositório deve conter uma pasta chamada LTON na sua raiz, ela que será usada para renderizar o conteúdo.'{LTON};
+   'The repository must contain a folder called LTON in its root, which will be used to render the content.'{LTON};
 
-  'Cada capitulo corresponde a um arquivo de texto com extensão ".txt", o nome do arquivo é o nome do capitulo.';
+   'Each chapter corresponds to a text file with the extension ".txt", the file name is the name of the chapter.';
 
-  'Os capítulos podem estar agrupados por pastas, o nome do agrupamento é o nome da pasta.';
+   'Chapters can be grouped by folders, the name of the grouping is the name of the folder.';
 
-  'Caso o nome do arquivo seja "_styles.txt" ou "_estilos.txt" ele não será exibido, mas pode conter estilos que persistiram por todas as páginas';
+   'If the file name is "_styles.txt" or "_estilos.txt" it will not be displayed, but it may contain styles that persisted across all pages';
 
-  'Recomendamos a criação de um arquivo "autor.txt" ou "author.txt" que contenha seus contatos, redes sociais e formas de apoio como pix, picpay, paypal ...';
+   'We recommend creating a file "autor.txt" or "author.txt" that contains your contacts, social networks and forms of support such as pix, picpay, paypal...';
 
-  {config.json};
+   {config.json};
 
-  'É necessário um arquivo "config.json" na raiz da pasta LTON com um objeto com três chaves:'
+   'You need a "config.json" file in the root of the LTON folder with an object with three keys:'
 
-  '"capa" ou "cover", se espera um link de uma imagem.';
+   '"cover" or "cover", if you expect a link to an image.';
 
-  '"genero" ou "genre", se espera um dos tipos contidos no filtro do catalogo (tudo em minúsculo, com acentuação).';
+   '"genre" or "genre", if one of the types contained in the catalog filter is expected (all in lowercase, with accents).';
 
-  '"idioma" ou "lang", específique o idioma ex:"en","pt-br"...';
+   '"language" or "lang", specify the language ex:"en","pt-br"...';
 
-  (l){Exemplo}'{
-        "genre":"ação",
-        "cover":"https://linktoimg",
-        "lang":"en"
-  }';
+   (l){Example}'{
+         "genre":"action",
+         "cover":"https://linktoimg",
+         "lang":"en"
+   }';
 
-  'Essa imagem e genero sera usado para exibir sua LTON no catálogo , na pagina inicial do site, não necessariamente sua LTON estará lá, o catálogo mostra as LTONs mais acessadas recentemente.';
+   'This image and genre will be used to display your LTON in the catalog, on the website's home page, your LTON will not necessarily be there, the catalog shows the most recently accessed LTONs.';
+  
+   'After creating a LTON repository, simply access "https://www.LTON.com/history.html#nome-do-profil-no-github:nome-do-repositorio" and if you have the syntax and folder structure correct, it will now be displayed.';
 
-  'Após criar um repositório LTON basta acessar o "https://www.LTON.com/history.html#nome-do-perfil-no-github:nome-do-repositório" e se estiver com a sintaxe e estrutura de pasta correta ele já será exibido.';
+   'Disclose your LTON link on your social networks.';
 
-  'Divulgue o link de sua LTON em suas redes sociais.';
-
-  'Sua LTON pode se atualizar a qualquer momento basta realizar um "push" no seu repositório do github, em até um dia o conteúdo será atualizado.';
+   'Your LTON can be updated at any time, just “push” to your github repository, the content will be updated within a day.';
 >;
 
-<{considerações finais};
-  'Este site é voltado a você que deseja tirar do papel suas histórias e dar vida a seus mundos, espero que ele seja de grande ajuda.';
-  'Apoiem o site e a seus criadores, para sempre nos manter motivados a fazer mais.';
-  'Desde já , agradeço a quem decidiu desenvolver sua LTON e principalmente a quem decidiu apoiar a ideia , cada doação, nem que seja valores simbólicos, faz esse projeto possível. ';
+<{final considerations};
+   'This site is aimed at you who want to take your stories off paper and bring your worlds to life, I hope it will be of great help.';
+   'Support the site and its creators, to always keep us motivated to do more.';
+   'In advance, I would like to thank those who decided to develop their LTON and especially those who decided to support the idea, each donation, even if they are symbolic amounts, makes this project possible. ';
 >;

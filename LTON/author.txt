@@ -1,0 +1,10 @@
+{Social media}'
+     x:
+     Facebook:
+     YouTube:
+';
+{Support}'
+     Pixel:
+     Payoneer:
+     PayPal:
+';
