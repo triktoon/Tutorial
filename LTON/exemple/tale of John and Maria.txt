@@ -2,7 +2,7 @@
      <{Forest};
         {John}'speak the truth Mary, we are lost!'(e);
         {Maria}'I just lost the trail, but I know the way back, calm down!'(d);
-        {John} 'calm down? It's going to get dark, this forest is dangerous at night! I've heard that there are direwolves here'(e);
+        {John} 'calm down? It's getting dark, this forest is dangerous at night! I've heard that there are direwolves here'(e);
         {Maria}'this forest has no wolves, stop complaining and keep walking'(d);
         'a while later, walking through the forest they see a house';
         {Maria}'FOUND IT!!'(d);
@@ -12,7 +12,7 @@
         {Maria}'at least it's a good place to spend the night'(d);
         {John}'I'm not going to go in there'(e);
         {Maria} 'do you want to stay in the forest playing with your "wolves"?'(d);
-        'the two enter the house';
+        'they enter the house';
      >;
 >;
 <{Night};
@@ -32,12 +32,12 @@
         {Maria} 'Hey, how did we end up here?'(e);
         {John}'I said there was something strange!'(e);
         'they hear a woman's voice that seemed to come from the ceiling';
-        {John}'Maria, I think I better get out of here quickly'(e);
+        {John}'Maria, I think I better get out of here'(e);
         {Maria}'calm down! It must just be the owner of the abandoned house wanting to help'(e);
         {John}'how are you sure?'(e);
         {Maria}'What else could it be? come, let's go and see her so you can see that you don't need to be afraid'(e);
         {John}'no need, I want to stay here'(e);
-        {Maria} 'come quickly, I'm hungry, she must have something for us to eat'(e);
+        {Maria} 'come on, I'm hungry, she must have something for us to eat'(e);
         'the two meet, go up the stairs and as they get closer to where they hear the voice
         they see an old woman surrounded by strange creatures,
         she feeds a rabbit on her lap that immediately turns into one of the creatures after eating;
@@ -49,7 +49,7 @@
         if she hears us she won't let us leave'(e);
         'they leave the house through the window, and see a carriage';
         {Maria}'it must be the old woman's carriage, get in there'(e);
-        {John}'Do you know how to walk with that? '(It is);
+        {John}'Do you know how to drive this?'(e);
         {Maria}'come up soon!'(e);
         {John}'ugh...ok'(e);
         {Maria}'now just hit the horses with a whip and they'll walk, but... where's the whip?'(e);
@@ -57,7 +57,7 @@
         'Maria strikes the horses that stand up frightened and neighing loudly,
         the door of the house opens abruptly';
         {Witch}'what's going on here?'(d);
-        {John}'MARIA QUICKLY!!'(e);
+        {John}'MARIA, FAST!!'(e);
         'Maria desperately hits the horses, and they take off running';
         {Witch} 'where do these brats think they're going?'(d);
         'the Witch takes 3 wolf-shaped amulets hanging around her neck and throws them to the ground,
@@ -70,7 +70,7 @@
         'they hear a howl, footsteps, growls and barks.
         John looks out of the carriage window and sees the wolves behind him';
         {John}'Maria are the wolves, they are reaching us'(e);
-        {Maria}' stay safe! I'll try to speed it up'(d);
+        {Maria}' hold on! I'll try to speed it up'(d);
         {John}'it won't work, they're too close'(e);
         {Maria}'I saw an arch and it was inside! try to shoot them'(d);
         {John}'I don't know how to use this'(e);

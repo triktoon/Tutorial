@@ -1,7 +1,7 @@
 !{Example}[#343;#fdf];
 
 <{Proposal};
-   'The website's proposal consists of using GitHub services to create repositories with a certain folder STRUCTURE together with text files in a specific text syntax to generate COMPONENTS (html/css resources) and create a kind of new webton called " LTON".';
+   'The website's proposal consists of using GitHub services to create repositories with a certain FOLDER STRUCTURE together with text files in a specific text syntax to generate COMPONENTS and create a kind of new webton called " LTON".';
 >;
 
 <{Components};
@@ -43,10 +43,10 @@
 
    'text'[black; white; solid red](d);
 
-   '(left)(left), (right)(right) || (e)(l), (d)(r).';
+   '(l)(left), (right)(r) || (e)(d).';
 
    'The brackets are used to define colors and styles.
-   First, the background color of the component is defined, then the text color and finally the border, separated by a semicolon ";":';
+   First, the background color of the component is defined, then the text color and finally the border, separated by a semicolon "##1":';
 
    (l){Example}'{example}[red; yellow; solid green 3px]##1';
 
@@ -62,9 +62,11 @@
 
    (l){Example}''example text'{reusing style}##1';
 
-   'sample text'{reusing style};
+   'example text'{reusing style};
 
-   'Styles are only valid in the chapter they were declared.';
+   'The styles registered in the titles are valid only in the chapter in which they were declared.';
+
+   'Styles marked directly in the component override title styles.';
 
    'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<;" and close with ">;". can be styled normally and can contain title :';
 
@@ -128,7 +130,7 @@
 
    'Chapters can be grouped by folders, the name of the grouping is the name of the folder.';
 
-   'If the file name is "_styles.txt" or "_estilos.txt" it will not be displayed, but it may contain styles that persisted across all pages';
+   'If the file name is "_styles.txt" or "_estilos.txt" it will not be displayed, but it may contain styles that persisted across all pages.';
 
    'We recommend creating a file "autor.txt" or "author.txt" that contains your contacts, social networks and forms of support such as pix, payoneer, paypal...';
 
@@ -136,11 +138,11 @@
 
    'You need a "config.json" file in the root of the LTON folder with an object with three keys:'
 
-   '"cover" or "cover", if you expect a link to an image.';
+   '"cover" , if you expect a link to image.';
 
-   '"genre" or "genre", if one of the types contained in the catalog filter is expected (all in lowercase, with accents).';
+   '"genre" , if one of the types contained in the catalog filter is expected (lowercase).';
 
-   '"language" or "lang", specify the language ex:"en","pt-br"...';
+   '"lang", specify the language ex:"en","pt-br"...';
 
    (l){Example}'{
          "genre":"action",
@@ -148,11 +150,11 @@
          "lang":"en"
    }';
 
-   'This image and genre will be used to display your LTON in the catalog, on the website's home page, your LTON will not necessarily be there, the catalog shows the most recently accessed LTONs.';
+   'This image and genre will be used to display your LTON in the catalog, https://www.LTON.com/catalog.html, your LTON will not necessarily be there, the catalog shows the recently most accessed LTONs.';
   
-   'After creating a LTON repository, simply access "https://www.LTON.com/history.html#nome-do-profil-no-github:nome-do-repositorio" and if you have the syntax and folder structure correct, it will now be displayed.';
+   'After creating a LTON repository, simply access "https://www.LTON.com/#github profile name:repository name" and if you have the syntax and folder structure correct, it will now be displayed.';
 
-   'Disclose your LTON link on your social networks.';
+   'Disclose your LTON link on your social media.';
 
    'Your LTON can be updated at any time, just “push” to your github repository, the content will be updated within a day.';
 >;
