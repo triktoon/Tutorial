@@ -68,18 +68,18 @@
 
    'Styles marked directly in the component override title styles.';
 
-   'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<;" and close with ">;". can be styled normally and can contain title :';
+   'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<##1" and close with ">##1". can be styled normally and can contain title :';
 
    (l){Example}'<{Section title}[yellow;#f5e]##1
-   {example}(e)##1
-   {in}##1
-   {section}(d)##1
+      {example}(e)##1
+      {in}##1
+      {section}(d)##1
    >##1';
 
    <{Section title}[yellow;#f5e];
-   {example}(e);
-   {in};
-   {section}(d);
+      {example}(e);
+      {in};
+      {section}(d);
    >;
 
    'Sections can also contain sections:';
@@ -136,11 +136,11 @@
 
    {config.json};
 
-   'You need a "config.json" file in the root of the LTON folder with an object with three keys:'
+   'if you want your LTON to appear in the catalog you will need a "config.json" file in the root of the LTON folder with an object with three keys:'
 
-   '"cover" , if you expect a link to image.';
+   '"cover" , if you expect a link to the image.';
 
-   '"genre" , if one of the types contained in the catalog filter is expected (lowercase).';
+   '"gender" , if one of the types contained in the catalog filter (lowercase) is expected.';
 
    '"lang", specify the language ex:"en","pt-br"...';
 
@@ -160,7 +160,6 @@
 >;
 
 <{final considerations};
-   'This site is aimed at you who want to take your stories off paper and bring your worlds to life, I hope it will be of great help.';
    'Support the site and its creators, to always keep us motivated to do more.';
    'In advance, I would like to thank those who decided to develop their LTON and especially those who decided to support the idea, each donation, even if they are symbolic amounts, makes this project possible. ';
 >;

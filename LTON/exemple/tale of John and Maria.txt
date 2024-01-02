@@ -40,7 +40,7 @@
         {Maria} 'come on, I'm hungry, she must have something for us to eat'(e);
         'the two meet, go up the stairs and as they get closer to where they hear the voice
         they see an old woman surrounded by strange creatures,
-        she feeds a rabbit on her lap that immediately turns into one of the creatures after eating;
+        she feeds a rabbit on her lap that immediately turns into one of the creatures after eating';
         {Witch}'fantastic, another beautiful addition to my army of creatures!
         At dawn I'll find out what those two little brats will turn into'(d);
         'Maria covered John's mouth, preventing him from screaming and slowly walked away without making any noise';
@@ -66,12 +66,12 @@
     >;
     <{Forest};
         {Maria}'I think we managed to escape'(d);
-        {John} 'ahh, Maria I think she has something after us' (e);
+        {John} 'ahh... Maria, there's something behind us' (e);
         'they hear a howl, footsteps, growls and barks.
         John looks out of the carriage window and sees the wolves behind him';
         {John}'Maria are the wolves, they are reaching us'(e);
         {Maria}' hold on! I'll try to speed it up'(d);
-        {John}'it won't work, they're too close'(e);
+        {John}'they're too close'(e);
         {Maria}'I saw an arch and it was inside! try to shoot them'(d);
         {John}'I don't know how to use this'(e);
         {Maria}'TRY!'(d);
@@ -82,17 +82,16 @@
         {Maria}'did you manage to get anything right?'(d);
         {John}'no, but I think I know how to stop them'(e);
         'John takes the amulets and throws them along the path, they transform and attack the wolves';
-        'they celebrate';
         {Maria}'how did you do that?'(d);
         {John}'these things transform into these creatures'(e);
         {Maria} 'how did you make them attack the wolves?'(d);
-        {John}'I don't know, they should attack the first thing they see'(e);
-        {Maria}'whatever it is, WE CAN DO IT!!'(d);
+        {John}'I don't know, they attack the first thing they see'(e);
+        {Maria}'whatever it is, we're safe!!'(d);
     >;
 >;
 <{Day};
      <{Forest};
-         {John}'LOOK!!, isn't that our village?'(e);
+         {John}'LOOK👉!!, isn't that our village?'(e);
          {Maria}'ahh? ... YES! I said I knew the way back'(d);
      >;
 >;

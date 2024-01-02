@@ -3,8 +3,8 @@
     !{Day}[#ec5;black];
 
 * Personagens principais;
-    !{John}[#333;;solid blue];
-    !{Maria}[#555;;solid #e3e];
+    !{John}[#333;#9ff];
+    !{Maria}[#555;#f9f];
     !{Witch}[;;solid purple];
 
 * Locações;
