@@ -136,30 +136,30 @@
 
    {config.json};
 
-   'if you want your LTON to appear in the catalog you will need a "config.json" file in the root of the LTON folder with an object with three keys:'
+   'if you want your LTON to appear in the catalog you will need a "config.json" file in the root of the LTON folder with an object with three keys:';
 
    '"cover" , if you expect a link to the image.';
 
-   '"gender" , if one of the types contained in the catalog filter (lowercase) is expected.';
+   '"tags" , an array with tags for searching is expected';
 
    '"lang", specify the language ex:"en","pt-br"...';
 
    (l){Example}'{
-         "genre":"action",
          "cover":"https://linktoimg",
+         "tags":["action","adventure"],
          "lang":"en"
    }';
 
-   'This image and genre will be used to display your LTON in the catalog, https://www.LTON.com/catalog.html, your LTON will not necessarily be there, the catalog shows the recently most accessed LTONs.';
+   'This image will be used to display your LTON in the catalog, "https://www.LTON.com/catalog.html", the catalog shows the recently most accessed LTONs.';
   
-   'After creating a LTON repository, simply access "https://www.LTON.com/#github profile name:repository name" and if you have the syntax and folder structure correct, it will now be displayed.';
+   'if your LTON is not available in the catalog go to "https://www.LTON.com/#github-profile-name:repository-name"';
 
    'Disclose your LTON link on your social media.';
 
    'Your LTON can be updated at any time, just “push” to your github repository, the content will be updated within a day.';
 >;
 
-<{final considerations};
+<{Final considerations};
    'Support the site and its creators, to always keep us motivated to do more.';
    'In advance, I would like to thank those who decided to develop their LTON and especially those who decided to support the idea, each donation, even if they are symbolic amounts, makes this project possible. ';
 >;

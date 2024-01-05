@@ -91,7 +91,7 @@
 >;
 <{Day};
      <{Forest};
-         {John}'LOOK👉!!, isn't that our village?'(e);
+         {John}'LOOK!!, isn't that our village?'(e);
          {Maria}'ahh? ... YES! I said I knew the way back'(d);
      >;
 >;

@@ -1,10 +1,10 @@
-{Social media}'
-     x:
-     Facebook:
-     YouTube:
+{Social media}[;#00000044]'
+     x:...
+     Facebook:...
+     YouTube:...
 ';
-{Support}'
-     Pix:
-     Payoneer:
-     PayPal:
+{Support}[black;white]'
+     Pix:novoglucas@gmail.com
+     Payoneer:novoglucas@gmail.com
+     PayPal:novoglucas@gmail.com
 ';
