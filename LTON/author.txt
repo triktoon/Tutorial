@@ -4,7 +4,10 @@
      YouTube:...
 ';
 {Support}[black;white]'
-     Pix:novoglucas@gmail.com
-     Payoneer:novoglucas@gmail.com
-     PayPal:novoglucas@gmail.com
+     Pix:
+               novoglucas@gmail.com
+     Payoneer:
+               novoglucas@gmail.com
+     PayPal:
+               novoglucas@gmail.com
 ';

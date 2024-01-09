@@ -2,6 +2,10 @@
 
 <{Proposal};
    'The website's proposal consists of using GitHub services to create repositories with a certain FOLDER STRUCTURE together with text files in a specific text syntax to generate COMPONENTS and create a kind of new webton called " LTON".';
+   <{Prerequisites};
+      'You will need to have git installed on your computer, have a Github account and know the basic commands to manipulate git repositories.';
+      'You will need an IDE (Integrated Development Environment), which offers a good text editing interface that integrates well with git and Github. ex: VSCode';
+   >;
 >;
 
 <{Components};
@@ -161,5 +165,5 @@
 
 <{Final considerations};
    'Support the site and its creators, to always keep us motivated to do more.';
-   'In advance, I would like to thank those who decided to develop their LTON and especially those who decided to support the idea, each donation, even if they are symbolic amounts, makes this project possible. ';
+   'In advance, I to thank those who decided to develop their LTON and especially those who decided to support the project, each donation, makes this project possible.';
 >;
