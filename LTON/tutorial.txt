@@ -171,4 +171,4 @@
 {Testes de Midias};
 @img(https://cdnb.artstation.com/p/assets/images/images/058/298/559/large/artmong-kwonsoonhyeop-artmong-hopi.jpg?1673859966,asdad);
 @video(https://player.vimeo.com/external/474206937.hd.mp4?s=6022d6a9f269dba1cfa39f1f3756d2f07d697656&profile_id=174&oauth2_token_id=57447761,asdd);
-@embed(<iframe width="560" height="315" src="https://www.youtube.com/embed/K5KAc5CoCuk?si=NTN2DTNI4Zd3Fwp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>);
+@embed(<iframe width="560" height="315" src="https://www.youtube.com/embed/K5KAc5CoCuk?si=NTN2DTNI4Zd3Fwp0" title="YouTube video player" frameborder="0" allow="accelerometer##1 autoplay##1 clipboard-write##1 encrypted-media##1 gyroscope##1 picture-in-picture##1 web-share" allowfullscreen></iframe>);
