@@ -1,7 +1,7 @@
 !{Example}[#343;#fdf];
 
 <{Proposal};
-   'The website's proposal consists of using GitHub services to create repositories with a certain FOLDER STRUCTURE together with text files in a specific text syntax to generate COMPONENTS and create a kind of new webton called " LTON".';
+   'The website's proposal consists of using GitHub services to create repositories with a certain FOLDER STRUCTURE together with text files in a specific text syntax to generate COMPONENTS and create a kind of new webton called "larticle".';
    <{Prerequisites};
       'You will need to have git installed on your computer, have a Github account and know the basic commands to manipulate git repositories.';
       'You will need an IDE (Integrated Development Environment), which offers a good text editing interface that integrates well with git and Github. ex: VSCode';
@@ -128,7 +128,7 @@
 <{Repository folder structure};
    'The main branch will always be used, and the repository must be public.';
 
-   'The repository must contain a folder called LTON in its root, which will be used to render the content.'{LTON};
+   'The repository must contain a folder called larticle in its root, which will be used to render the content.'{larticle};
 
    'Each chapter corresponds to a text file with the extension ".txt", the file name is the name of the chapter.';
 
@@ -140,7 +140,7 @@
 
    {config.json};
 
-   'if you want your LTON to appear in the catalog you will need a "config.json" file in the root of the LTON folder with an object with three keys:';
+   'if you want your larticle to appear in the catalog you will need a "config.json" file in the root of the larticle folder with an object with three keys:';
 
    '"cover" , if you expect a link to the image.';
 
@@ -154,21 +154,21 @@
          "lang":"en"
    }';
 
-   'This image will be used to display your LTON in the catalog, "https://www.LTON.com/catalog.html", the catalog shows the recently most accessed LTONs.';
+   'This image will be used to display your larticle in the catalog, "https://www.larticle.com/catalog.html", the catalog shows the recently most accessed larticles.';
   
-   'if your LTON is not available in the catalog go to "https://www.LTON.com/#github-profile-name:repository-name"';
+   'if your larticle is not available in the catalog go to "https://www.larticle.com/#github-profile-name:repository-name"';
 
-   'Disclose your LTON link on your social media.';
+   'Disclose your larticle link on your social media.';
 
-   'Your LTON can be updated at any time, just “push” to your github repository, the content will be updated within a day.';
+   'Your larticle can be updated at any time, just “push” to your github repository, the content will be updated within a day.';
 >;
 
 <{Final considerations};
    'Support the site and its creators, to always keep us motivated to do more.';
-   'In advance, I to thank those who decided to develop their LTON and especially those who decided to support the project, each donation, makes this project possible.';
+   'In advance, I to thank those who decided to develop their larticle and especially those who decided to support the project, each donation, makes this project possible.';
 >;
 
-{Testes de Midias};
-@img(https://cdnb.artstation.com/p/assets/images/images/058/298/559/large/artmong-kwonsoonhyeop-artmong-hopi.jpg?1673859966,asdad);
-@video(https://player.vimeo.com/external/474206937.hd.mp4?s=6022d6a9f269dba1cfa39f1f3756d2f07d697656&profile_id=174&oauth2_token_id=57447761,asdd);
-@embed(<iframe width="560" height="315" src="https://www.youtube.com/embed/K5KAc5CoCuk?si=NTN2DTNI4Zd3Fwp0" title="YouTube video player" frameborder="0" allow="accelerometer##1 autoplay##1 clipboard-write##1 encrypted-media##1 gyroscope##1 picture-in-picture##1 web-share" allowfullscreen></iframe>);
+*{Testes de Midias};
+*@img(https://cdnb.artstation.com/p/assets/images/images/058/298/559/large/artmong-kwonsoonhyeop-artmong-hopi.jpg?1673859966,asdad);
+*@video(https://player.vimeo.com/external/474206937.hd.mp4?s=6022d6a9f269dba1cfa39f1f3756d2f07d697656&profile_id=174&oauth2_token_id=57447761,asdd);
+*@embed(<iframe width="560" height="315" src="https://www.youtube.com/embed/K5KAc5CoCuk?si=NTN2DTNI4Zd3Fwp0" title="YouTube video player" frameborder="0" allow="accelerometer##1 autoplay##1 clipboard-write##1 encrypted-media##1 gyroscope##1 picture-in-picture##1 web-share" allowfullscreen></iframe>);
