@@ -16,7 +16,7 @@
    {title}'text'[black; white; solid red](l);
 
    'Components are ALWAYS separated by semicolons "##1".';
-
+   
    'if you want to use semicolons in the text or title, enter "#,#,1" without the commas';
 
    'Whatever comes inside braces {} will make the title.';
@@ -75,15 +75,15 @@
    'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<##1" and close with ">##1". can be styled normally and can contain title :';
 
    (l){Example}'<{Section title}[yellow;#f5e]##1
-      {example}(e)##1
-      {in}##1
       {section}(d)##1
+      {...}##1
+      {example}(e)##1
    >##1';
 
    <{Section title}[yellow;#f5e];
-      {example}(e);
-      {in};
       {section}(d);
+      {...};
+      {example}(e);
    >;
 
    'Sections can also contain sections:';
@@ -144,7 +144,7 @@
 
    '"cover" , if you expect a link to the image.';
 
-   '"tags" , an array with tags for searching is expected';
+   '"tags" , an array with tags for searching is expected, limit 5 tags';
 
    '"lang", specify the language ex:"en","pt-br"...';
 
@@ -154,9 +154,9 @@
          "lang":"en"
    }';
 
-   'This image will be used to display your larticle in the catalog, "https://www.larticle.com/catalog.html", the catalog shows the recently most accessed larticles.';
+   'This image will be used to display your larticle in the catalog, "https://www.larticle.com/", the catalog shows the recently most accessed larticles.';
   
-   'if your larticle is not available in the catalog go to "https://www.larticle.com/#github-profile-name:repository-name"';
+   'if your larticle is not available in the catalog go to "https://www.larticle.com/github-profile-name/repository-name"';
 
    'Disclose your larticle link on your social media.';
 
