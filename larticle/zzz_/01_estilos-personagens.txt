@@ -1,0 +1,4 @@
+* Personagens principais;
+    !{John}[#333;#9ff];
+    !{Maria}[#555;#f9f];
+    !{Witch}[;;solid purple];

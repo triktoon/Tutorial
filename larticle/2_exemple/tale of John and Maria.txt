@@ -1,5 +1,7 @@
 <{Day};
      <{Forest};
+        @img(
+            https://lh3.googleusercontent.com/pw/AP1GczMjssW5PfkvAg1JEtOby_7HlgHzv44O6khAiKXm6Vf7399507B6R4595VEwPtlxiGYcXKP5sIoGlTaqDwXsOGgH5NaUJ4XWJyfJW0pjw3GhTSbl9UP1qxKRz85zma_3iSmblPUrhgzvuttOig1oMkn22sWXQgkQvSUgb3K1XnJ0a5hqidYJ4u3vXRRHYzFOe4qswxJiJ9yIn37hNwVF55k9PeFsxx7tyCNnBoxtGSJvLVfed5af3zm_vkSND5IaMVMBlxQ2E8eipDceDORNcl_KZD9o_HcwLR8O1WvKVMBXYEf9Q0HsIxxCio7JU4NfKWZ8F4COY4vdVv7_GAd4OTRGEFVh21Wpmk0xOc691mRX5XIJhsfDvR_wzQqDDww3wt7ftNVk9mufbjxRTwwnlFSZhoYqJ89UGAk-J2fco3OlVFvmeschzqgq2S-la3rxKSBNcqsxKsYCBJBCvWEIVjDXSTjmuUyW3B1VAp3dx_gwGBIJKP79fHOBx1pd-12lrKfEmZluK5YyVPKo__fVEg2qfFZJSolfxJ_u1NtRWd75uEOjRXNMs-G7y9zOLrEgRr3afpo4V7JqcOx5W83k9irMfjlvbVjV0cSfj6voYwAYljop71T6fhTdvwkRGVowWbzM-8fNkFaHZlDpp4_7k6ZkRiK6C_p-Mb19lb5xq-eqOBt8RPA9p0meGnQKn88S7ReKrVgw7wEj8S49iKpDPMpdag4a-ySYhFJV1sfRn_qWZBfD1_KDzX9DAu3gHaLPlNi96QeDHjQDta6WEo99uhc4P9UG9-y0_Ji42funQ10fV3agU024TW2kBx60cd_lMEaUnuRq_2jIe2yAv9HoEHGRmsHTzGIOlpC7lcMtYaLr5VKVdP4SFNlwcsaWkxpgtxRX4sr_ZgJs1rXl_R5HgO0TbjjDKG2cBhbZNm40NNr6OIH6qMdVLsFHRMSoqnnV1px6IW7eJ7pbT03Ue444Dvou_5WluQFI=w879-h879-s-no-gm?authuser=2);
         {John}'speak the truth Mary, we are lost!'(e);
         {Maria}'I just lost the trail, but I know the way back, calm down!'(d);
         {John} 'calm down? It's getting dark, this forest is dangerous at night! I've heard that there are direwolves here'(e);

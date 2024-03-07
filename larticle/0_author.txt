@@ -5,9 +5,9 @@
 ';
 {Support}[black;white]'
      Pix:
-               novoglucas@gmail.com
+       novoglucas@gmail.com
      Payoneer:
-               novoglucas@gmail.com
+       novoglucas@gmail.com
      PayPal:
-               novoglucas@gmail.com
+       novoglucas@gmail.com
 ';

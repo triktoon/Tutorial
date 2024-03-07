@@ -74,11 +74,12 @@
 
    'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<##1" and close with ">##1". can be styled normally and can contain title :';
 
-   (l){Example}'<{Section title}[yellow;#f5e]##1
-      {section}(d)##1
-      {...}##1
-      {example}(e)##1
-   >##1';
+   (l){Example}'
+      <{Section title}[yellow;#f5e]##1
+         {section}(d)##1
+         {...}##1
+         {example}(e)##1
+      >##1';
 
    <{Section title}[yellow;#f5e];
       {section}(d);
@@ -88,12 +89,12 @@
 
    'Sections can also contain sections:';
 
-   (l){Example}
-   '<{Section title}[yellow;#f5e]##1
-     <{reusing style}##1
-     {example}(e)'section within a section'##1
-     >##1
-   >##1';
+   (l){Example}'
+      <{Section title}[yellow;#f5e]##1
+         <{reusing style}##1
+            {example}(e)'section within a section'##1
+         >##1
+      >##1';
 
    <{Section title}[yellow;#f5e];
    <{reusing style};
@@ -109,14 +110,16 @@
    video(video link).';
 
    (l){Example}
-   '@img(image link)##1
+   '
+   @img(image link)##1
    @video(video link)##1
    @embed(iframe)##1';
 
    'This type of component has no text, style or title, but can have the side defined if the parentheses come before.';
 
    (l){Example}
-   '@(e)img(image link)##1
+   '
+   @(e)img(image link)##1
    @(d)video(video link)##1
    @(e)embed(iframe)##1';
 
@@ -126,7 +129,7 @@
 >;
 
 <{Repository folder structure};
-   'The main branch will always be used, and the repository must be public.';
+   'The main branch will always be used';
 
    'The repository must contain a folder called larticle in its root, which will be used to render the content.'{larticle};
 
@@ -136,31 +139,13 @@
 
    'If the file name is "_styles.txt" or "_estilos.txt" it will not be displayed, but it may contain styles that persisted across all pages.';
 
-   'We recommend creating a file "autor.txt" or "author.txt" that contains your contacts, social networks and forms of support such as pix, payoneer, paypal...';
-
-   {config.json};
-
-   'if you want your larticle to appear in the catalog you will need a "config.json" file in the root of the larticle folder with an object with three keys:';
-
-   '"cover" , if you expect a link to the image.';
-
-   '"tags" , an array with tags for searching is expected, limit 5 tags';
-
-   '"lang", specify the language ex:"en","pt-br"...';
-
-   (l){Example}'{
-         "cover":"https://linktoimg",
-         "tags":["action","adventure"],
-         "lang":"en"
-   }';
-
-   'This image will be used to display your larticle in the catalog, "https://www.larticle.com/", the catalog shows the recently most accessed larticles.';
-  
+   'We recommend creating a file "autor.txt" or "author.txt" that contains your contacts, social networks and forms of support';
+ 
    'if your larticle is not available in the catalog go to "https://www.larticle.com/github-profile-name/repository-name"';
 
    'Disclose your larticle link on your social media.';
 
-   'Your larticle can be updated at any time, just “push” to your github repository, the content will be updated within a day.';
+   'Your article can be updated at any time, just update the repository and repost';
 >;
 
 <{Final considerations};
