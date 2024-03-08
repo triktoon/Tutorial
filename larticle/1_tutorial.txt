@@ -1,7 +1,7 @@
 !{Example}[#343;#fdf];
 
 <{Proposal};
-   'The website's proposal consists of using GitHub services to create repositories with a certain FOLDER STRUCTURE together with text files in a specific text syntax to generate COMPONENTS and create a kind of new webton called "larticle".';
+   'The site's proposal consists of using GitHub services to create repositories with a specific FOLDER STRUCTURE together with text files in a specific text syntax to generate COMPONENTS and create a new type of content called larticle.';
    <{Prerequisites};
       'You will need to have git installed on your computer, have a Github account and know the basic commands to manipulate git repositories.';
       'You will need an IDE (Integrated Development Environment), which offers a good text editing interface that integrates well with git and Github. ex: VSCode';
