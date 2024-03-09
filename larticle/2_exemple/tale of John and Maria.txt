@@ -1,7 +1,7 @@
 <{Day};
      <{Forest};
         @img(
-            https://photos.google.com/u/2/album/AF1QipPxVRy339vGMvo7e-subgoPJG5ShU_fnqw_Sk9j/photo/AF1QipNOqjXxyBAsbxliC8G1b8BheCnI8afOpyKAHB88);
+            https://i.imgur.com/XRnoFcB.png);
         {John}'speak the truth Mary, we are lost!'(e);
         {Maria}'I just lost the trail, but I know the way back, calm down!'(d);
         {John} 'calm down? It's getting dark, this forest is dangerous at night! I've heard that there are direwolves here'(e);
