@@ -1,0 +1,63 @@
+!{Dia}[linear-gradient(yellow,orange)];
+!{Noite}[#007;white];
+!{Local 1}[#ffaa55dd;black];
+!{Local 2}[#1111eedc;white];
+!{Narrador}[#d0d0d099;black];
+!{content}[#5f5f5fcc;white];
+!{personagem 2}[;;solid red];
+
+<{Dia};
+	<{Local 1};
+		{Narrador_}'olá mundo';
+		{personagem 1}'falas do '(l);
+		{personagem 2}'outra fala do '(d);
+		{personagem 1}'só muda cor do texto'(l);
+	>;
+	<{Local 2};
+		{Narrador_}'olá mundo';
+		{personagem 2}'falas do '(d);
+		{personagem 1}'outra fala do '(l);
+		{personagem 2}'só muda cor do texto'(d);
+		{personagem 1}'outra fala do p1'(l);
+	>;
+>;
+<{Noite};
+	<{Local 1};
+		@img(
+            https://cdnb.artstation.com/p/assets/images/images/058/786/999/large/hunter-choir-viking-hero.jpg?1674988730);
+		{Narrador_}'olá mundo';
+		{personagem 1}'falas do '(l);
+		{personagem 2}'outra fala do '(d);
+		{personagem 1}'só muda cor do texto'(l);
+	>;
+	<{Local 2};
+		{Narrador_}'olá mundo';
+		{personagem 2}'falas do '(d);
+		{personagem 1}'outra fala do '(l);
+		{personagem 2}'só muda cor do texto'(d);
+	>;
+>;
+
+*OUTRO EXEMPLO;
+
+<{lugar};
+	<{corte-d_};
+		'uma descrição de onde exatamente do lugar';
+	>;
+	<{corte-l_};
+		'uma descrição de onde exatamente do lugar';
+	>;
+>;
+!{lugar}[red;white];
+!{corte-l}[#22222233;;solid #ffffff55];
+!{corte-d}[#dddddd33;;solid #ffffff55];
+
+*OUTRO EXEMPLO;
+<{title}'	RUBRICA um texto explicando o que acontece em cena ocupa todo o espaço da sessão com quebra de linha etc '[yellow];
+	(r){titlulo}'texto'[red]img(
+		https://cdnb.artstation.com/p/assets/images/images/058/562/931/large/alexandra-malygina-fler-harpy-ara-color-render-white.jpg?1674478435);
+	(l){por que n ta centralizado?}'falastroso'embed(
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/aOPcCIuuMhg?si=lI7VW6NKXh_d2j0B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>);
+	(r){mais uma }'com texto'video(
+		https://player.vimeo.com/progressive_redirect/playback/501366746/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=80b2d22a73cd0b1a6a23cd0592052d69e3e9366ddb877331f556e625b238ca9c);
+>;

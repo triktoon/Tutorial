@@ -48,7 +48,7 @@
         'Maria covered John's mouth, preventing him from screaming and slowly walked away without making any noise';
         {John}'do you still want to order food?'(e);
         {Maria} 'Okay, you were right, I think we better get out of here, but without making noise!!
-        if she hears us she won't let us leave'(e);
+         if she hears us she won't let us leave'(e);
         'they leave the house through the window, and see a carriage';
         {Maria}'it must be the old woman's carriage, get in there'(e);
         {John}'Do you know how to drive this?'(e);
