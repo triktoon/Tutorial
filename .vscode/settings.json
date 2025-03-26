@@ -1,7 +1,9 @@
 {
     "explorer.sortOrder": "mixed",
+    "editor.wordWrap": "on",
+    "highlight.maxMatches": 250,
     "highlight.regexes": {
-        "(\\{[^{}]*\\})[^;]*": {
+        "(\\{[^{}]*\\})[^\\|]*": {//titulo
         "filterFileRegex": "\\.txt$",
         "decorations": [
                 {
@@ -16,7 +18,55 @@
                 }
             ]
         },
-        "(\\[[^\\[\\]]*\\])": {
+        "(img[^)]*)": {
+            "filterFileRegex": "\\.txt$",
+            "decorations": [
+                    {
+                        "color": "#f8f",
+                        "fontStyle": "italic",
+                    },
+                    {
+                        "backgroundColor": "#9b3c6d41",
+                    }
+                ]
+        },
+        "(audio[^)]*)": {
+            "filterFileRegex": "\\.txt$",
+            "decorations": [
+                    {
+                        "color": "#f8f",
+                        "fontStyle": "italic",
+                    },
+                    {
+                        "backgroundColor": "#9b3c6d41",
+                    }
+                ]
+        },
+        "(embed[^)]*)": {
+            "filterFileRegex": "\\.txt$",
+            "decorations": [
+                    {
+                        "color": "#f8f",
+                        "fontStyle": "italic",
+                    },
+                    {
+                        "backgroundColor": "#9b3c6d41",
+                    }
+                ]
+        },
+        "(video[^)]*)": {
+            "filterFileRegex": "\\.txt$",
+            "decorations": [
+                    {
+                        "color": "#f8f",
+                        "fontStyle": "italic",
+                    },
+                    {
+                        "backgroundColor": "#9b3c6d41",
+                    }
+                ]
+        },
+        "(\\[[^\\[\\]]*\\])": {//estilos
             "filterFileRegex": "\\.txt$",
             "decorations": [
                     {
@@ -25,7 +75,7 @@
                     },
                 ]
         },
-        "(\\([^\\(\\)]*\\))": {
+        "(\\([^\\(\\)]*\\))": {//lado
             "filterFileRegex": "\\.txt$",
             "decorations": [
                     {
@@ -34,11 +84,10 @@
                     },
                 ]
         },
-        "([<>].*;)": {
+        "([<>].*\\|)": {//seção
             "filterFileRegex": "\\.txt$",
             "decorations": [
                     {
-                        // "backgroundColor": "#5e41eec9",
                         "color": "#0ff",
                     },
                     {
@@ -46,13 +95,14 @@
                     }
                 ]
         },
-        "(\\*[^;]*)": {
+        "(\\*[^|]*)": {//comentários
             "filterFileRegex": "\\.txt$",
             "decorations": [
                     {
                         "backgroundColor": "#534444dc"
                     }
                 ]
-        }
+        },
+        
     },
 }

@@ -1,0 +1,141 @@
+!{Example}[#343;#fdf]|
+
+<{Components}|
+   'It is possible to create components like this:'|
+
+   (l){Example}'{title}'text'[black;white;solid red](l)##1'|
+
+   {title}'text'[black; white; solid red](l)|
+
+   'Components are ALWAYS separated by vertical bar "##1".'|
+   
+   'if you want to use semicolons in the text or title, enter "#+#+1" without the plus signal'|
+
+   'Whatever comes inside braces {} will make the title.'|
+
+   'Whatever comes inside SINGLE quotation marks '' will make up the text.'|
+
+   'It is not necessary to have both, it can just be title:'|
+
+   (l){Example}'{title}[ black; white; solid red]##1'|
+
+   {title}[ black; white; solid red]|
+
+   'Or just text:'|
+
+   (l){Example}''text'[ black; white; solid red]##1'|
+
+   'text'[black; white; solid red]|
+
+   'Whatever comes inside parentheses () will define the side:'|
+
+   (l){Example}''text'[ black; white; solid red](e)##1'|
+
+   'text'[black; white; solid red](e)|
+
+   'Or:'|
+
+   (l){Example}''text'[ black; white; solid red](d)##1'|
+
+   'text'[black; white; solid red](d)|
+
+   '(l)(left), (right)(r) or (e)(d).'|
+
+   'The brackets are used to define colors and styles.
+   First, the background color of the component is defined, then the text color and finally the border, separated by a semicolon ; :'|
+
+   (l){Example}'{example}[red; yellow; solid green 3px]##1'|
+
+   {example}[red; yellow; solid green 3px]|
+
+   'It is also possible to reuse styles by saving them in a title, just start the component with an exclamation mark "!":'|
+
+   (l){Example}'![blue;#fa5]{reusing style}##1'|
+
+   ![blue;#fa5]{reusing style}|
+
+   'Nothing will be displayed, but now whenever you use the title"{reusing style}" it will have this styling:'|
+
+   (l){Example}''example text'{reusing style}##1'|
+
+   'example text'{reusing style}|
+
+   'The styles registered in the titles are valid only in the chapter in which they were declared.'|
+
+   'Styles marked directly in the component override title styles.'|
+
+   'It is also possible to create 'sections' that can contain other components inside, to do this you must open the section with "<##1" and close with ">##1". can be styled normally and can contain title :'|
+
+   (l){Example}'
+      <{Section title}[yellow;#f5e]##1
+         {section}(d)##1
+         {...}##1
+         {example}(e)##1
+      >##1'|
+
+   <{Section title}[yellow;#f5e]|
+      {section}(d)|
+      {...}'💛☪'|
+      {example}(e)|
+   >|
+
+   'Sections can also contain sections:'|
+
+   (l){Example}'
+      <{Section title}[yellow;#f5e]##1
+         <{reusing style}##1
+            {example}(e)'section within a section'##1
+         >##1
+      >##1'|
+
+   <{Section title}[yellow;#f5e]|
+   <{reusing style}|
+   {example}(e)'section within a section'|
+   >|
+   >|
+
+   'Always remember to close the sections WITH ">##1".'|
+
+   'It is also possible to insert media, first the media needs to be available online, after that
+   img(image link)'|
+
+   (l){Example}'(e){title} img(
+      https://lh3.googleusercontent.com/pw/AP1GczNrarMRF7HqtrLyULIxBphWOkAhewH0VWuOoUIev4jNipLgC7IBpbBk0RRanfmYjCsfDTuEaWbjhk6c8zQv4OY3VaIXMEPf5ARIKUY2GwBWif2gR_DnVtyZd1sTtaN3wlPVnz0NvxPdpbcrZLv-AHun=w879-h879-s-no-gm?authuser=0)##1'|
+   (e){title}img(
+      https://lh3.googleusercontent.com/pw/AP1GczNrarMRF7HqtrLyULIxBphWOkAhewH0VWuOoUIev4jNipLgC7IBpbBk0RRanfmYjCsfDTuEaWbjhk6c8zQv4OY3VaIXMEPf5ARIKUY2GwBWif2gR_DnVtyZd1sTtaN3wlPVnz0NvxPdpbcrZLv-AHun=w879-h879-s-no-gm?authuser=0)|
+   (l){Example}'<{title} img(
+      https://lh3.googleusercontent.com/pw/AP1GczNrarMRF7HqtrLyULIxBphWOkAhewH0VWuOoUIev4jNipLgC7IBpbBk0RRanfmYjCsfDTuEaWbjhk6c8zQv4OY3VaIXMEPf5ARIKUY2GwBWif2gR_DnVtyZd1sTtaN3wlPVnz0NvxPdpbcrZLv-AHun=w879-h879-s-no-gm?authuser=0)##1>##1'|
+   <{title}img(
+      https://lh3.googleusercontent.com/pw/AP1GczNrarMRF7HqtrLyULIxBphWOkAhewH0VWuOoUIev4jNipLgC7IBpbBk0RRanfmYjCsfDTuEaWbjhk6c8zQv4OY3VaIXMEPf5ARIKUY2GwBWif2gR_DnVtyZd1sTtaN3wlPVnz0NvxPdpbcrZLv-AHun=w879-h879-s-no-gm?authuser=0)|
+   >|
+   
+   'And lastly, so that an inserted component is not rendered, simply place an asterisk "*" at the beginning, this avoids the need to delete them.'|
+
+   (l){Example}'*'text'{title}##1'|
+>|
+
+<{Folder Structure}|
+
+   {Trik}'There must be a folder called trik, all the content must be inside the trik folder, the triktoon name must come after trik-, e.g.: trik-name.'|
+
+   'Each chapter corresponds to a text file with the extension ".txt", the name of the file is the name of the chapter.'|
+
+   {Order}'order the chapters with prefixes, whichever comes before '_' prefix_name.txt'|
+
+   {Group}'The chapters can be grouped by folders, the name of the grouping is the name of the folder.'|
+
+   {Styles}'If the file name is "styles*.txt" it will not be displayed, but it can contain styles that persist across all pages.'|
+
+   {Author}'We recommend creating an "author.txt" file that contains your contacts, social networks and forms of support'|
+>|
+
+<{Final considerations}|
+   'Support the site and its creators, to always keep us motivated to do more.'|
+   'In advance, I to thank those who decided to support the project, each donation, makes this project possible.'|
+>|
+
+*{Testes de Midias}|
+*@img(
+   https://cdnb.artstation.com/p/assets/images/images/058/298/559/large/artmong-kwonsoonhyeop-artmong-hopi.jpg?1673859966)|
+*@embed(
+   <iframe src="https://www.youtube.com/embed/..." ></iframe>)|

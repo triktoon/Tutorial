@@ -1,7 +1,0 @@
-* Básicos;
-    !{Night}[#113;white];
-    !{Day}[#ec5;black];
-
-* Locações;
-    !{Witch's House}[#517;white];
-    !{Forest}[#22bb3399;white];
